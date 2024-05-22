@@ -1,5 +1,5 @@
-const Introsection = () => {
-  return <div></div>;
+const IntroSection = () => {
+  return <div>iiih</div>;
 };
 
-export default Introsection;
+export default IntroSection;
