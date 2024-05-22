@@ -6,7 +6,7 @@ const Herosection = () => {
       <div className=" flex flex-col  mb-16 max-lg:justify-center px-4 max-lg:p">
         <h1 className="max-sm:text-[62px] max-sm:leading-[72px] text-4xl font-bold ">
           {" "}
-          Learn How to <br />
+          Learn How To <br />
           Save Lives
         </h1>
         <p className="text-base leading-8 mt-6 mb-7 sm:max-w-sm font-montserrat text-slate-gray">
@@ -22,7 +22,7 @@ const Herosection = () => {
         </div>
       </div>
       <div className="w-2/5">
-        <img className="w-[600px]" src={takecharge} alt="" />
+        <img className="w-[500px]" src={takecharge} alt="" />
       </div>
     </section>
   );
