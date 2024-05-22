@@ -1,7 +1,7 @@
 const IntroSection = () => {
   return (
     <>
-      <div className="flex-col justify-center  bg-slate-200 p-16">
+      <div className="flex-col justify-center font-slate-gray bg-slate-200 p-16">
         <h2 className="flex justify-start pl-8 font-palanquin font-bold">
           Welcome to First Aid Basics
         </h2>
