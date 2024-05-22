@@ -1,6 +1,6 @@
 // Home page content
-export const NavMenu = [
-  { menuName: "Home", routePath: "/home" },
+export const navigationMenu = [
+  { menuName: "Home", routePath: "" },
   { menuName: "About", routePath: "/about" },
   { menuName: "First Aid", routePath: "/firstaid" },
   { menuName: "Emergency", routePath: "/emergency" },
