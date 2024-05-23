@@ -37,16 +37,19 @@ export const HomeTestimonial = [
     clientStatement:
       "Thanks to this website, I was able to help someone in a crisis!",
     clientPhoto: "",
+    testifyDate: "23rd May , 2024",
   },
   {
     clientName: "John",
     clientStatement: "The guides are easy to follow and very informative.",
     clientPhoto: "",
+    testifyDate: "21st May , 2024",
   },
   {
     clientName: "Rose",
     clientStatement: "The guides are easy to follow and very informative.",
     clientPhoto: "",
+    testifyDate: "22th May , 2024",
   },
 ];
 

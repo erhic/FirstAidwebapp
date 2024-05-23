@@ -15,7 +15,7 @@ const Herosection = () => {
         <div className="flex flex-row max-lg:flex-col max-lg:w-40  mb-16 pb-8">
           <a
             href=""
-            className="bg-red-600 text-white px-6 py-3 rounded-full border-none hover:bg-red-500 border font-montserrat text-lg leading-none"
+            className="bg-red-600 text-white px-6 py-3 rounded-full border-none hover:bg-red-500 border font-montserrat text-lg leading-none font-semibold "
           >
             Get Started
           </a>

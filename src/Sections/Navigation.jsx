@@ -12,7 +12,7 @@ const Navigation = () => {
         <ul className="flex gap-8  max-lg:hidden font-monteserrat text-slate-700 ">
           {navigationMenu.map((item) => (
             <li
-              className="hover:text-slate-900 border-b-4 border-slate-100 hover:border-b-4 hover:border-red-600"
+              className="hover:text-slate-900 border-b-4 border-slate-100 hover:border-b-4 hover:border-red-600 tracking-wide font-semibold"
               key={item.menuName}
             >
               <a href={item.routePath}>{item.menuName}</a>

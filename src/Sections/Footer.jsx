@@ -3,7 +3,7 @@ import { FooterLink } from "../Constants";
 const Footer = () => {
   return (
     <>
-      <section className="w-full flex justify-around bg-slate-100 p-14 fontSize-base max-lg:flex-col ">
+      <section className="w-full tracking-wide flex justify-around bg-slate-100 p-14 fontSize-base max-lg:flex-col ">
         <div>
           <h3 className="text-lg pb-4 text-black font-bold">Contact Info</h3>
           <ul>
