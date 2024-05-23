@@ -1,5 +1,13 @@
+import FirstaidHeroSection from "../Sections/Firstaidpage/FirstaidHeroSection";
+import PrincipleSection from "../Sections/Firstaidpage/PrincipleSection";
+
 const Firstaid = () => {
-  return <div>Firstaid</div>;
+  return (
+    <>
+      <FirstaidHeroSection />
+      <PrincipleSection />
+    </>
+  );
 };
 
 export default Firstaid;

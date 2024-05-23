@@ -150,7 +150,7 @@ export const FirstaidProcedure = [
   { headingName: "First Aid for Choking" },
 ];
 
-export const BasicPrinciple = [
+export const basicPrinciple = [
   {
     listName: "DRABC",
     description: "Danger, Response, Airway, Breathing, Circulation",
