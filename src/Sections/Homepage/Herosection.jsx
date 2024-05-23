@@ -1,4 +1,4 @@
-import { cpr, takecharge } from "../../assets/images";
+import { takecharge } from "../../assets/images";
 
 const Herosection = () => {
   return (
