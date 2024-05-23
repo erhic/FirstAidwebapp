@@ -21,7 +21,7 @@ const SubscribeSection = () => {
           </div>
           <p>
             We care bout the protection of your data. Read our
-            <span className="text-[#00df9a]"> Privacy Policy.</span>
+            <span className="text-slate-600"> Privacy Policy.</span>
           </p>
         </div>
       </div>

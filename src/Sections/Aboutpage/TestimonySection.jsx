@@ -4,7 +4,7 @@ const TestimonySection = () => {
   return (
     <>
       <h3 className="pl-16  mx-4 text-lg font-bold text-slate-600 pt-6">
-        Testmonial
+        What Our Users Say
       </h3>
       <section className="w-full flex gap-6 justify-center pt-14 pb-16 font-palanquin px-10">
         <h3></h3>

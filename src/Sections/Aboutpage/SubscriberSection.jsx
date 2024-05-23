@@ -5,7 +5,7 @@ const SubscriberSection = () => {
         <p className="font-monteserrat"></p>
         <div className="lg:col-span-2 my-4">
           <h1 className="md:text-1xl sm:text-2xl text-1xl font-bold py-2">
-            Sign up to our newsletter for latest first aid tips and updates.
+            Interested for Latest Career and Opportunities updates.
           </h1>
         </div>
         <div className="my-4">
@@ -16,7 +16,7 @@ const SubscriberSection = () => {
               placeholder="Enter Email"
             />
             <button className="bg-[#00df9a] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3">
-              Subscribe
+              Join Us
             </button>
           </div>
         </div>
