@@ -9,9 +9,12 @@ const Navigation = () => {
         <img src={firstaidkitelog} alt="" />
       </div>
       <div className="navlink">
-        <ul className="flex gap-8  max-lg:hidden">
+        <ul className="flex gap-8  max-lg:hidden font-monteserrat text-slate-700 ">
           {navigationMenu.map((item) => (
-            <li key={item.menuName}>
+            <li
+              className="hover:text-slate-900 border-b-4 border-slate-100 hover:border-b-4 hover:border-red-600"
+              key={item.menuName}
+            >
               <a href={item.routePath}>{item.menuName}</a>
             </li>
           ))}
