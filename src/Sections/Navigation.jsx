@@ -4,7 +4,7 @@ import { firstaidkitelog } from "../assets/images";
 
 const Navigation = () => {
   return (
-    <nav className="w-full flex  justify-between px-16 items-center bg-slate-100 p-6 max-container">
+    <nav className="w-full flex  justify-between px-16 items-center bg-slate-100 p-6 max-container hover:border-slate-200 border-b-1 border-slate-100">
       <div className="logo flex">
         <img src={firstaidkitelog} alt="" />
       </div>

@@ -1,5 +1,6 @@
 import HeroSection from "../Sections/Aboutpage/HeroSection";
 import MissionvisonSection from "../Sections/Aboutpage/MissionvisonSection";
+import SubscriberSection from "../Sections/Aboutpage/SubscriberSection";
 import TestimonySection from "../Sections/Aboutpage/TestimonySection";
 
 const About = () => {
@@ -8,6 +9,7 @@ const About = () => {
       <HeroSection />
       <MissionvisonSection />
       <TestimonySection />
+      <SubscriberSection />
     </div>
   );
 };
