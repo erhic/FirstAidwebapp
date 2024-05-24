@@ -178,7 +178,7 @@ export const CommonProcedureCPR = [
   },
   {
     listProcedure:
-      "Begin chest compressions: Push hard and fast in the center of the chest.",
+      "Begin chest compressions: Push hard and fast in the center.",
   },
   {
     listProcedure: "Provide rescue breaths if trained.",

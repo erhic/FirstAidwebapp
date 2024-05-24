@@ -3,10 +3,10 @@ import { HomeTestimonial } from "../../Constants";
 const TestimonialSection = () => {
   return (
     <>
-      <h3 className="pl-14 text-lg font-bold text-slate-600 pt-6">
+      <h3 className=" text-lg font-bold pl-16 text-slate-600 pt-6">
         Testmonial
       </h3>
-      <section className="w-full flex gap-6 justify-center pt-14 pb-16 font-palanquin px-10">
+      <section className="w-full max-lg:flex-col flex gap-6 justify-center pt-14 pb-16 font-palanquin px-10">
         <h3></h3>
         {HomeTestimonial.map((item) => (
           <div
@@ -15,7 +15,7 @@ const TestimonialSection = () => {
           >
             <div className="border  rounded-lg p-6">
               <div className="mb-8">
-                <p className="text-gray-700 text-base  text-slate-500 leading-6">
+                <p className="text-base  text-slate-500 leading-6">
                   {'" ' + item.clientStatement + ' " '}
                 </p>
               </div>
