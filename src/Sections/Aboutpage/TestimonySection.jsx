@@ -6,7 +6,7 @@ const TestimonySection = () => {
       <h3 className="pl-16  mx-4 text-lg font-bold text-slate-600 pt-6">
         What Our Users Say
       </h3>
-      <section className="w-full flex gap-6 justify-center pt-14 pb-16 font-palanquin px-10">
+      <section className="w-full  max-lg:flex-col flex gap-6 justify-center pt-14 pb-16 font-palanquin px-10">
         <h3></h3>
         {AboutTestimonial.map((item) => (
           <div
@@ -15,7 +15,7 @@ const TestimonySection = () => {
           >
             <div className="border  rounded-lg p-6">
               <div className="mb-8">
-                <p className="text-gray-700 text-base  text-slate-500 leading-6">
+                <p className="text-base  text-slate-500 leading-6">
                   {'" ' + item.memberStatement + ' " '}
                 </p>
               </div>
