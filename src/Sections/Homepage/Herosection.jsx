@@ -21,7 +21,7 @@ const Herosection = () => {
           </a>
         </div>
       </div>
-      <div className="w-2/5">
+      <div className="w-2/5 max-lg:hidden">
         <img className="w-[500px]" src={takecharge} alt="" />
       </div>
     </section>

@@ -41,8 +41,8 @@ const MainSection = () => {
           </div>
         </div>
 
-        <div className="flex justify-center items-center pb-8">
-          <div>
+        <div className="flex justify-center  items-center pb-8">
+          <div className=" smax-lg:hidden">
             <img src="" alt="" />
           </div>
           <div>
