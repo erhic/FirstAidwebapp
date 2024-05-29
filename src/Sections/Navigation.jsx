@@ -22,7 +22,7 @@ const Navigation = () => {
             </li>
           ))}
         </ul>
-        <div className="md:hidden block  flex-col justify-end absolute  mt-16 static  px-16 top-0 w-full left-0 fixed md:z-auto bg-red-600 pb-16">
+        <div className="md:hidden block  flex-col justify-end absolute  mt-16 static  px-16 top-0 w-full left-0 fixed md:z-auto bg-red-600 pb-10">
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-white w-12 flex justify-center absolute right-4 mt-[-35px]"
