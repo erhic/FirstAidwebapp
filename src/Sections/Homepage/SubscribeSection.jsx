@@ -1,6 +1,6 @@
 const SubscribeSection = () => {
   return (
-    <section className="flex justify-center bg-slate-200 py-16">
+    <section className="flex justify-center bg-slate-200 py-16 px-16">
       <div className="justify-center">
         <p className="font-monteserrat"></p>
         <div className="lg:col-span-2 my-4">
@@ -11,7 +11,7 @@ const SubscribeSection = () => {
         <div className="my-4">
           <div className="flex flex-col sm:flex-row items-center justify-between w-full">
             <input
-              className="p-3 flex w-full rounded-md text-black"
+              className="p-3 flex w-full justify-center rounded-md text-black"
               type="email"
               placeholder="Enter Email"
             />

@@ -2,12 +2,11 @@ import { takecharge } from "../../assets/images";
 
 const Herosection = () => {
   return (
-    <section className=" w-full flex  max-lg:flex-col flex-row justify-center items-center gap-10 max-container min-h-screen  ">
-      <div className=" flex flex-col  mb-16 max-lg:justify-center px-4 max-lg:p">
+    <section className=" w-full  min-h-screen grid grid-cols-1 md:grid-cols-2 place-items-center ">
+      <div className="   p-8 ">
         <h1 className="max-sm:text-[62px] max-sm:leading-[72px] text-4xl font-bold ">
-          {" "}
-          Learn How To <br />
-          Save Lives
+          Learn How <br />
+          To Save Lives
         </h1>
         <p className="text-base leading-8 mt-6 mb-7 sm:max-w-sm font-montserrat text-slate-gray">
           Comprehensive guides and resources on first aid.
@@ -21,7 +20,7 @@ const Herosection = () => {
           </a>
         </div>
       </div>
-      <div className="w-2/5 max-lg:hidden">
+      <div className="hidden md:block  place-items-center">
         <img className="w-[500px]" src={takecharge} alt="" />
       </div>
     </section>
