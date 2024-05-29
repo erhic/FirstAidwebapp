@@ -6,7 +6,7 @@ const TestimonialSection = () => {
       <h3 className=" text-lg font-bold pl-16 text-slate-600 pt-6">
         Testmonial
       </h3>
-      <section className="w-full max-md:flex-col place-items-center  flex gap-6 justify-center pt-14 pb-16 font-palanquin px-10">
+      <section className="w-full max-md:flex-col place-items-center  flex gap-6 justify-center pt-14  pb-[100px] font-palanquin px-10">
         <h3></h3>
         {HomeTestimonial.map((item) => (
           <div
