@@ -3,10 +3,12 @@ import { cpr, takecharge } from "../../assets/images";
 const MainSection = () => {
   return (
     <>
-      <section className=" grid  font-montserrat px-16 py-16">
-        <h3 className=" text-lg font-bold text-slate-500 ">What To Learn</h3>
-        <div className="grid sm:grid-cols-2 gap-5 place-items-center pt-8">
-          <div className="  grid ">
+      <section className="py-16 px-16 font-montserrat ">
+        <h3 className="pl-14 text-lg font-bold text-slate-500 pt-6">
+          What To Learn
+        </h3>
+        <div className="flex justify-center items-center pb-8">
+          <div className="lex justify-around  items-center py-8">
             <h3 className="text-lg font-bold text-slate-700  leading-9">
               Emergency Situation
             </h3>
@@ -17,7 +19,7 @@ const MainSection = () => {
               - Learn More
             </a>
           </div>
-          <div className=" sm:block hidden">
+          <div>
             <img src={takecharge} alt="" />
           </div>
         </div>
