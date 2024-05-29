@@ -1,6 +1,6 @@
 const SubscriberSection = () => {
   return (
-    <section className="flex justify-center bg-slate-50 border-b-1 py-16 ">
+    <section className="flex justify-center bg-slate-50 border-b-1 py-16  px-16 ">
       <div className="justify-center">
         <p className="font-monteserrat"></p>
         <div className="lg:col-span-2 my-4">

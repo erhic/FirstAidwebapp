@@ -4,11 +4,9 @@ const MainSection = () => {
   return (
     <>
       <section className="py-16 px-16 font-montserrat ">
-        <h3 className="pl-14 text-lg font-bold text-slate-500 pt-6">
-          What To Learn
-        </h3>
-        <div className="flex justify-center items-center pb-8">
-          <div className="lex justify-around  items-center py-8">
+        <h3 className=" text-lg font-bold text-slate-500 ">What To Learn</h3>
+        <div className="flex justify-center items-center py-6  ">
+          <div className="  items-center   ">
             <h3 className="text-lg font-bold text-slate-700  leading-9">
               Emergency Situation
             </h3>
@@ -19,16 +17,16 @@ const MainSection = () => {
               - Learn More
             </a>
           </div>
-          <div>
+          <div className="hidden md:block ">
             <img src={takecharge} alt="" />
           </div>
         </div>
 
-        <div className="py-8 grid sm:grid-cols-2 place-items-center">
-          <div>
+        <div className="py-8 grid md:grid-cols-2 place-items-center md:px-[150px] gap-4 ">
+          <div className=" ">
             <img src={cpr} alt="" />
           </div>
-          <div>
+          <div className="">
             <h3 className="text-lg font-bold text-slate-700 leading-9">
               First Aid Basics
             </h3>

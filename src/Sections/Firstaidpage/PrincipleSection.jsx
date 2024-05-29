@@ -6,7 +6,7 @@ const PrincipleSection = () => {
       <h2 className=" flex  w-full  justify-center  py-4 font-montserrat  tracking-normal font-semibold leading-10 text-slate-900 pr-2">
         Basic Principles of First Aid
       </h2>{" "}
-      <div className="flex justify-center item-center gap-10 max-lg:flex-col">
+      <div className="grid md:grid-cols-2 grid-cols-1 place-items-center gap-10">
         <div className=" flex-col w-[50%] px-5 flex-1 items-center justify-center text-wrap">
           <p className=" flex-1 m-3  p-4  flex justify-center  text-white font-bold font-palanquin  rounded-full items-center bg-red-600">
             {" "}
@@ -36,9 +36,9 @@ const PrincipleSection = () => {
           </ul>
         </div>{" "}
       </div>
-      <div className="flex">
+      <div className="flex px-16">
         <div className="">
-          <h2 className="flex justify-center pl-8 font-montserrat pt-16 tracking-normal font-semibold leading-10 text-slate-900">
+          <h2 className="flex justify-center px-16 font-montserrat pt-16 tracking-normal font-semibold leading-10 text-slate-900">
             CPR (Cardiopulmonary Resuscitation)
           </h2>
           <ul className="font-montserrat leading-6  justify-center ">
